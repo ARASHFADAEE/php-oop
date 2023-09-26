@@ -7,9 +7,9 @@ class person{
     public $name;
     private $age;
 
+    public function Set_name( string $name){
 
 
-    public function Set_name($name){
 
         echo 'name :'. $name;
 
@@ -25,4 +25,4 @@ class person{
 
 $ali=new person();
 echo $ali->name;
-echo $ali->age;
+$ali->Set_name('ali');
